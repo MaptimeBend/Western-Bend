@@ -1,5 +1,4 @@
-USGS'esque Map Styles
-===========================
-Style will be worked on via MapTimeBend crew.
+# Western-Bend
+A USGS'esque OSM Map
 
-Feel free to make changes.  The labels look bad and the street styles need some more love.
+NEEDS WORK!  Please feel free to hack on this.  Specifically labels look bad as do streets.
