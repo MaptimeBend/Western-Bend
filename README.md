@@ -1,3 +1,5 @@
-mapbox-studio-default-style
+USGS'esque Map Styles
 ===========================
-Default style used by new style projects in Mapbox Studio.
+Style will be worked on via MapTimeBend crew.
+
+Feel free to make changes.  The labels look bad and the street styles need some more love.
