@@ -155,18 +155,36 @@ Map {
 
 // Water Features //
 
-#water {
-  polygon-fill: @water;
-  polygon-gamma: 0.6;
-}
+/* #water {
+  line-color: @waterbound;
+  line-width: 2;
+  ::inner1 { 
+    polygon-geometry-transform:scale(-10,-10);
+    line-color: @blue;
+   }
+  ::inner2 {
+    //line-offset: 1.5px;
+   }
+  ::inner3 {
+    //line-offset: 2.75px;
+   }
+  ::inner4 {
+    //line-offset: 18px;
+   }
+  ::inner5 {
+    //line-offset: 36px;
+   }
+} */
 
 #water_label {
   [zoom<=12][area>10000],  // automatic area filtering @ low zooms
   [zoom>=13]{
     text-name: @name;
-    text-face-name: 'Source Sans Pro Italic';
-    text-fill: darken(@water, 30%);
-    text-size: 13;
+    text-face-name: 'HolmenOT RegularItalic';
+    text-character-spacing: 5;
+    text-wrap-width: 100;
+    text-fill: black;
+    text-size: 30;
   }
 }
 

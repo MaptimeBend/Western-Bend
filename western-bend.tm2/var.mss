@@ -34,6 +34,7 @@
 // Landuse colors //
 
 // Core landuse colors
+@waterbound: #5d6668;
 @water: desaturate(@blue, 45);
 @land: @usgsbrown;
 @park: @green-desat;
